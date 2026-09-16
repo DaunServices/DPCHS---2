@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/resource"
+public_folder: "images/resource"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    fields:
+      - {label: "Tajuk (Title)", name: "title", widget: "string"}
+      - {label: "Tarikh", name: "date", widget: "datetime"}
+      - {label: "Gambar Utama", name: "image", widget: "image"}
+      - {label: "Kandungan Artikel", name: "body", widget: "markdown"}
