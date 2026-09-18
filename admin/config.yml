@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: DaunServices/DPCHS---2
   branch: main
+  base_url: https://dpchs-blog.netlify.app
 
 media_folder: "images/resource"
 public_folder: "images/resource"
