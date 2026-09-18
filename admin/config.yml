@@ -14,4 +14,4 @@ collections:
       - {label: "Tajuk (Title)", name: "title", widget: "string"}
       - {label: "Tarikh", name: "date", widget: "datetime"}
       - {label: "Gambar Utama", name: "image", widget: "image"}
-      - {label: "Kandungan Artikel", name: "body", widget: "markdown"}
+      - {label: "Kandungan Artikel", name: "body", widget: "markdown"} 
